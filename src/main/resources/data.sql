@@ -1,0 +1,7 @@
+-- /* This file will be executed automatically when the application starts */
+-- INSERT INTO tasks (description, completed, created_at) 
+-- VALUES 
+--     ('Learn Spring Boot basics', false, NOW() - INTERVAL '2 days'),
+--     ('Set up PostgreSQL database', true, NOW() - INTERVAL '1 day'),
+--     ('Create first REST controller', false, NOW()),
+--     ('Understand JPA repositories', false, NOW());
